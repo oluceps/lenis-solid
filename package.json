@@ -1,0 +1,35 @@
+{
+  "name": "lenis-solid",
+  "version": "1.0.0",
+  "description": "A SolidJS package for lenis smooth scroll integration.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "pnpm build"
+  },
+  "devDependencies": {
+    "@darkroom.engineering/tempus": "^0.0.46",
+    "lenis": "^1.1.13",
+    "solid-js": "^1.8.22",
+    "vite": "^5.4.8"
+  },
+  "keywords": [
+    "solidjs",
+    "lenis",
+    "scroll",
+    "smooth",
+    "typescript",
+    "vite"
+  ]
+}
