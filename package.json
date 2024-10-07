@@ -11,9 +11,7 @@
   },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "vite build",
     "prepublishOnly": "pnpm build"
@@ -24,12 +22,5 @@
     "solid-js": "^1.8.22",
     "vite": "^5.4.8"
   },
-  "keywords": [
-    "solidjs",
-    "lenis",
-    "scroll",
-    "smooth",
-    "typescript",
-    "vite"
-  ]
+  "keywords": ["solidjs", "lenis", "scroll", "smooth", "typescript", "vite"]
 }

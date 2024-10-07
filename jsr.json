@@ -1,0 +1,8 @@
+{
+  "name": "@myrrhlab/lenis-solid",
+  "version": "0.1.0",
+  "exports": "./package.json",
+  "publish": {
+    "exclude": ["flake*"]
+  }
+}
