@@ -1,6 +1,6 @@
 {
   "name": "lenis-solid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A SolidJS package for lenis smooth scroll integration.",
   "type": "module",
   "types": "./src/type.ts",
