@@ -5,7 +5,7 @@ import {
 	onCleanup,
 	createSignal,
 } from "solid-js";
-import type { LenisContextValue, LenisProps } from "./types";
+import type { LenisContextValue, LenisProps } from "./types.js";
 import { onMount } from "solid-js";
 import Tempus from "@darkroom.engineering/tempus";
 import Lenis, { type ScrollCallback } from "lenis";
@@ -148,5 +148,5 @@ export function SolidLenis(props: LenisProps) {
 	);
 }
 
-export * from "./types";
+export * from "./types.js";
 export { SolidLenis as Lenis };

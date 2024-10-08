@@ -4,6 +4,7 @@
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
     "strictNullChecks": true,
+    "moduleResolution": "nodenext",
     "esModuleInterop": true,
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
