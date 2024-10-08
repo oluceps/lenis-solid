@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A SolidJS package for lenis smooth scroll integration.",
   "type": "module",
+  "types": "./src/type.ts",
   "exports": {
     ".": {
       "import": "./dist/index.js",
